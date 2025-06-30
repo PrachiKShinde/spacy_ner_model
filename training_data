@@ -1,0 +1,153 @@
+TRAIN_DATA = [
+    ("Worked on Budget Tracker project for Prachi. Task: Bug Fixing. Date: 23 June. Time: 2.5 hours. Fixed UI alignment issues.", {
+        "entities": [
+            (11, 28, "PROJECT"),
+            (33, 39, "CLIENT"),
+            (47, 58, "TASK"),
+            (66, 74, "DATE"),
+            (81, 90, "DURATION"),
+            (92, 119, "DESCRIPTION")
+        ]
+    }),
+    ("Prachi requested UI testing for SmartHome App. Task: Testing. Date: 1 July. Time: 3 hours. Tested layout on multiple devices.", {
+        "entities": [
+            (0, 6, "CLIENT"),
+            (33, 46, "PROJECT"),
+            (54, 61, "TASK"),
+            (69, 76, "DATE"),
+            (83, 91, "DURATION"),
+            (93, 130, "DESCRIPTION")
+        ]
+    }),
+    ("Client Ayush assigned development of WeatherApp. Task: Feature addition. Date: 15 July. Time: 4 hours. Added alerts module.", {
+        "entities": [
+            (7, 12, "CLIENT"),
+            (35, 45, "PROJECT"),
+            (53, 70, "TASK"),
+            (78, 86, "DATE"),
+            (93, 101, "DURATION"),
+            (103, 122, "DESCRIPTION")
+        ]
+    }),
+    ("Updated billing logic for Zeno CRM project for Pratik. Task: Bug fix. Date: 29 June. Time: 1 hour. Fixed subtotal issue.", {
+        "entities": [
+            (27, 39, "PROJECT"),
+            (44, 50, "CLIENT"),
+            (58, 66, "TASK"),
+            (74, 82, "DATE"),
+            (89, 96, "DURATION"),
+            (98, 118, "DESCRIPTION")
+        ]
+    }),
+    ("Worked with Sheetal on Pharmacy Tracker. Task: Report Generation. Date: 10 July. Time: 2 hours. Exported all analytics.", {
+        "entities": [
+            (12, 19, "CLIENT"),
+            (23, 40, "PROJECT"),
+            (48, 66, "TASK"),
+            (74, 82, "DATE"),
+            (89, 97, "DURATION"),
+            (99, 122, "DESCRIPTION")
+        ]
+    }),
+    ("Worked on Invoice Manager with Priya. Task: Integration. Date: 18 June. Time: 1.5 hours. Integrated with Razorpay API.", {
+        "entities": [
+            (11, 27, "PROJECT"),
+            (33, 38, "CLIENT"),
+            (46, 58, "TASK"),
+            (66, 74, "DATE"),
+            (81, 91, "DURATION"),
+            (93, 121, "DESCRIPTION")
+        ]
+    }),
+    ("Client Reva gave a new task on FoodApp. Task: UI Design. Date: 20 July. Time: 2 hours. Created splash and login screen.", {
+        "entities": [
+            (7, 11, "CLIENT"),
+            (35, 42, "PROJECT"),
+            (50, 59, "TASK"),
+            (67, 75, "DATE"),
+            (82, 90, "DURATION"),
+            (92, 124, "DESCRIPTION")
+        ]
+    }),
+    ("Finished Email setup for DevOps Panel for Rohan. Task: Configuration. Date: 5 June. Time: 1 hour. Setup Gmail SMTP.", {
+        "entities": [
+            (24, 38, "PROJECT"),
+            (43, 48, "CLIENT"),
+            (56, 69, "TASK"),
+            (77, 84, "DATE"),
+            (91, 98, "DURATION"),
+            (100, 117, "DESCRIPTION")
+        ]
+    }),
+    ("Maintained and updated PortfolioX for Raj. Task: Content update. Date: 12 June. Time: 1.25 hours. Replaced old resume and skills.", {
+        "entities": [
+            (25, 35, "PROJECT"),
+            (40, 43, "CLIENT"),
+            (51, 65, "TASK"),
+            (73, 81, "DATE"),
+            (88, 99, "DURATION"),
+            (101, 132, "DESCRIPTION")
+        ]
+    }),
+    ("Worked on backend module of HR Suite for Kavita. Task: API Development. Date: 30 June. Time: 4.5 hours. Added new endpoints.", {
+        "entities": [
+            (25, 33, "PROJECT"),
+            (39, 45, "CLIENT"),
+            (53, 68, "TASK"),
+            (76, 84, "DATE"),
+            (91, 101, "DURATION"),
+            (103, 124, "DESCRIPTION")
+        ]
+    }),
+    ("Created dashboard for SalesMonitor. Client: Neha. Task: Dashboard design. Date: 7 July. Time: 3 hours. Designed graphs and filters.", {
+        "entities": [
+            (23, 36, "PROJECT"),
+            (46, 50, "CLIENT"),
+            (58, 75, "TASK"),
+            (83, 90, "DATE"),
+            (97, 105, "DURATION"),
+            (107, 135, "DESCRIPTION")
+        ]
+    }),
+    ("Rewrote Python scripts for DataTracker. Client: Mohit. Task: Refactoring. Date: 8 July. Time: 1.75 hours. Improved code structure.", {
+        "entities": [
+            (28, 40, "PROJECT"),
+            (50, 55, "CLIENT"),
+            (63, 75, "TASK"),
+            (83, 90, "DATE"),
+            (97, 108, "DURATION"),
+            (110, 133, "DESCRIPTION")
+        ]
+    }),
+    ("Documented SRS for HealthPortal. Client: Aisha. Task: Documentation. Date: 14 June. Time: 2 hours. Wrote full feature list.", {
+        "entities": [
+            (18, 30, "PROJECT"),
+            (40, 45, "CLIENT"),
+            (53, 67, "TASK"),
+            (75, 83, "DATE"),
+            (90, 98, "DURATION"),
+            (100, 124, "DESCRIPTION")
+        ]
+    }),
+    ("Assisted in bug fixing on GoDelivery App. Client: Sagar. Task: Bug fix. Date: 27 June. Time: 1.5 hours. Resolved crash on submit.", {
+        "entities": [
+            (25, 39, "PROJECT"),
+            (49, 54, "CLIENT"),
+            (62, 70, "TASK"),
+            (78, 86, "DATE"),
+            (93, 103, "DURATION"),
+            (105, 131, "DESCRIPTION")
+        ]
+    }),
+    ("Deployed final version of SurveyTool for Reema. Task: Deployment. Date: 9 July. Time: 1 hour. Uploaded build to Play Store.", {
+        "entities": [
+            (27, 38, "PROJECT"),
+            (43, 48, "CLIENT"),
+            (56, 67, "TASK"),
+            (75, 82, "DATE"),
+            (89, 96, "DURATION"),
+            (98, 125, "DESCRIPTION")
+        ]
+    }),
+]
+
